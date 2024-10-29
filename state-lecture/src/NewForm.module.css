@@ -1,0 +1,58 @@
+/* Modular CSS method where we style components individually */
+
+button{
+    background-color: black;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 0.25rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.inputGroup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4srem;
+}
+
+.inputGroup label{
+    color: white;
+}
+
+.formContainer{
+    width: 34%;
+    height: auto;
+    /* background-color: #f8f8f8; */
+    padding: 2rem;
+    margin: 3rem auto;
+    background-color: var(--backgroundColor);
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.input{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid #e3e3e3;
+    background-color: #d6d6d6;
+    border-radius: 0.25rem;
+    outline: none;
+}
+
+.buttonDiv{
+    width: 100%;
+    height: auto;
+}
